@@ -1,7 +1,7 @@
 # TD4CLTabs
 TD4CLTabs (**T**able **D**etection for **C**omputational **L**inguistics **Tab**le**s**) is a novel domain-specific table type classification dataset, which contains 15k table images (12k for training and 3k for the test) and their corresponding type labels obtained from [ACL Anthology](https://aclanthology.org/). It is from my master thesis topic supported by TUB and DFKI, namely, `Towards a novel classification of table type in scholarly publications`.
 
-The dataset can be download [here](https://drive.google.com/file/d/1toiPiinycEcwggbrkb2xZmhDc_CrBRsh/view?usp=sharing)
+The dataset can be download [here](https://drive.google.com/file/d/1sIrKROtKwLKWKlAX7soLSjaGemzWUdaI/view?usp=sharing)
 
 ## Introduction
 
@@ -108,6 +108,3 @@ Taking *train.csv* in **HFTT_Novel_I** for example
 10344	|2022.naacl-main.105-Table1-1.jpg|	2
 10345	|2022.naacl-main.105-Table10-1.jpg|	2
 10346	|2022.naacl-main.105-Table11-1.jpg|	0
-
-## The stats of dataset
-
