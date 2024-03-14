@@ -1,7 +1,7 @@
 # TD4CLTabs
-TD4CLTabs (**T**able **D**etection for **C**omputational **L**inguistics **Tab**le**s**) is a novel domain-specific table type classification dataset, which contains 15k table images (12k for training and 3k for the test) and their corresponding type labels obtained from [ACL Anthology](https://aclanthology.org/). It is from my master thesis topic supported by TUB and DFKI, namely, `Towards a novel classification of table type in scholarly publications`.
+TD4CLTabs (**T**able **D**etection for **C**omputational **L**inguistics **Tab**le**s**) is a novel domain-specific table type classification dataset, which contains 13k table images (10k for training and 3k for the test) and their corresponding type labels obtained from [ACL Anthology](https://aclanthology.org/).
 
-The dataset can be download [here](https://drive.google.com/file/d/1sIrKROtKwLKWKlAX7soLSjaGemzWUdaI/view?usp=sharing)
+The dataset can be download [here](https://drive.google.com/file/d/1sIrKROtKwLKWKlAX7soLSjaGemzWUdaI/view?usp=sharing).
 
 ## Introduction
 
@@ -108,3 +108,69 @@ Taking *train.csv* in **HFTT_Novel_I** for example
 10344	|2022.naacl-main.105-Table1-1.jpg|	2
 10345	|2022.naacl-main.105-Table10-1.jpg|	2
 10346	|2022.naacl-main.105-Table11-1.jpg|	0
+
+Below is *train.csv* in **FFTT_Novel_V**
+
+| |id|FFTT_Novel_V|
+|--|--|--|
+|0 |2022.acl-demo.1-Table1-1.jpg| 15
+1	|2022.acl-demo.1-Table2-1.jpg|	15
+2	|2022.acl-demo.1-Table3-1.jpg|	1 7
+3	|2022.acl-demo.10-Table1-1.jpg|	3 7
+4	|2022.acl-demo.11-Table1-1.jpg|	7
+...	...	...
+7682	|2022.findings-acl.67-Table2-1.jpg|	1 3 8
+... ... ...
+10342	|2022.naacl-main.104-Table8-1.jpg|	9
+10343	|2022.naacl-main.104-Table9-1.jpg|	9
+10344	|2022.naacl-main.105-Table1-1.jpg|	9
+10345	|2022.naacl-main.105-Table10-1.jpg|	9
+10346	|2022.naacl-main.105-Table11-1.jpg|	1 7
+
+## The staticstic of dataset
+
+|Type\\# images |training set| test test | SciTSRComp dataset|
+|--|--|--|--|
+|Total|10,347| 2,954 | 716|
+|**Baseline_I**|
+|Listing|4,404|1,345|229|
+|Matrix|5,891|1,567|469|
+|Other|52|42|18|
+|**Baseline_II**|
+|Matrix|5,891|1,567|469|
+|Horizontal Listing|3,649|1,164|207|
+|Vertical Listing|498|105|18|
+|Enumeration|257|76|4|
+|Other|52|42|18|
+|**HFTT_Novel_I**|
+|Listing|4,011|1,260|127|
+|Matrix|3,048|759|72|
+|Hierarchical Matrix|2,843|808|397|
+|Hierarchical Listing|393|85|102|
+|Other table|52|42|18|
+|**HFTT_Novel_II**|
+|Listing|4,011|1,260|127|
+|Matrix|3,048|759|72|
+|Type H1 Matrix|1,813|500|318|
+|Type H2 Matrix|543|158|27|
+|Type H3 Matrix|487|150|52|
+|Hierarchical Listing|393|85|102|
+|Other table|52|42|18|
+|**HFTT_Novel_III**|
+|Listing|4,011|1,260|127|
+|Pseudo Matrix|2,133|410|53|
+|Type H1 Pseudo Matrix|1,384|373|180|
+|Matrix|915|349|19|
+|Type H1 Matrix|429|127|138|
+|Hierarchical Listing|393|85|102|
+|Type H3 Pseudo Matrix|389|127|36|
+|Type H2 Pseudo Matrix|357|127|19|
+|Type H2 Matrix|186|31|8|
+|Type H3 Matrix|98|23|16|
+|Other table|52|42|18|
+|**HFTT_Novel_IV**|
+|Pseudo Matrix|4,263|1,037|288|
+|Listing|4,011|1,260|127|
+|Matrix|1,628|530|181|
+|Hierarchical Listing|393|85|102|
+|Other table|52|42|18|
