@@ -1,16 +1,20 @@
 # TD4CLTabs
-TD4CLTabs (**T**able **D**etection for **C**omputational **L**inguistics **Tab**le**s**) is a novel domain-specific table type classification dataset, which contains 13k table images (10k for training and 3k for the test) and their corresponding type labels obtained from [ACL Anthology](https://aclanthology.org/).
 
-The dataset can be found and downloaded on [zenodo](https://zenodo.org/records/10972922). 
+<!-- TD4CLTabs (**T**able **D**etection for **C**omputational **L**inguistics **Tab**le**s**) is a novel domain-specific table type classification dataset, which contains 13k table images (10k for training and 3k for the test) and their corresponding type labels obtained from [ACL Anthology](https://aclanthology.org/). -->
 
-## Introduction
+This repository stores the code implementation for the following paper:
+ 
+He, J.,  Borisova, E., & Rehm, G. 2024. Towards a Novel Classification of Table Types in Scholarly Publications. Accepted to the Natural Scientific Language Processing and Research Knowledge Graphs Workshop (NSLP 2024).
 
-The aim of this study was to investigate the effectiveness of taxonomies in classifying
+The aim of the paper was to investigate the effectiveness of taxonomies in classifying
 tables within scholarly publications. To
 achieve this, two groups of table taxonomies, referred to as **Header-Feature Table Taxonomy (HFTT)** and **Full-Feature Table Taxonomy (FFTT)**, were
 developed specifically for academic tables. Furthermore, TD4CLTabs dataset was constructed
-using these taxonomies. To evaluate the effectiveness of the proposed taxonomies, a benchmark study was conducted by training ResNet50 and Vit models.
+using these taxonomies. To evaluate the effectiveness of the proposed taxonomies, a benchmark study was conducted by training ResNet50 and Vit models. 
 
+Codes can be found in two files *resnet50_model.ipynb* and *vit_model.ipynb*. The dataset can be found and downloaded on [zenodo](https://zenodo.org/records/10972922). 
+
+<!-- 
 ## The structure of dataset directory
 
 ```
@@ -173,7 +177,7 @@ Below is *train.csv* in **FFTT_Novel_V**
 |Listing|4,011|1,260|127|
 |Matrix|1,628|530|181|
 |Hierarchical Listing|393|85|102|
-|Other table|52|42|18|
+|Other table|52|42|18| -->
 
 ## Citation
 
