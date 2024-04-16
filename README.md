@@ -6,11 +6,7 @@ This repository stores the code implementation for the following paper:
  
 He, J.,  Borisova, E., & Rehm, G. 2024. Towards a Novel Classification of Table Types in Scholarly Publications. Accepted to the Natural Scientific Language Processing and Research Knowledge Graphs Workshop (NSLP 2024).
 
-The aim of the paper was to investigate the effectiveness of taxonomies in classifying
-tables within scholarly publications. To
-achieve this, two groups of table taxonomies, referred to as **Header-Feature Table Taxonomy (HFTT)** and **Full-Feature Table Taxonomy (FFTT)**, were
-developed specifically for academic tables. Furthermore, TD4CLTabs dataset was constructed
-using these taxonomies. To evaluate the effectiveness of the proposed taxonomies, a benchmark study was conducted by training ResNet50 and Vit models. 
+The aim of the paper was to investigate the effectiveness of taxonomies in classifying tables within scholarly publications. To achieve this, two groups of table taxonomies, referred to as **Header-Feature Table Taxonomy (HFTT)** and **Full-Feature Table Taxonomy (FFTT)**, were developed specifically for academic tables. Furthermore, TD4CLTabs dataset was constructed using these taxonomies. To evaluate the effectiveness of the proposed taxonomies, a benchmark study was conducted by training ResNet50 and Vit models. 
 
 Codes can be found in two files *resnet50_model.ipynb* and *vit_model.ipynb*. The dataset can be found and downloaded on [zenodo](https://zenodo.org/records/10972922). 
 
