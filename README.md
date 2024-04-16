@@ -1,7 +1,7 @@
 # TD4CLTabs
 TD4CLTabs (**T**able **D**etection for **C**omputational **L**inguistics **Tab**le**s**) is a novel domain-specific table type classification dataset, which contains 13k table images (10k for training and 3k for the test) and their corresponding type labels obtained from [ACL Anthology](https://aclanthology.org/).
 
-The dataset can be found and download on [zenodo](https://zenodo.org/records/10972922). 
+The dataset can be found and downloaded on [zenodo](https://zenodo.org/records/10972922). 
 
 ## Introduction
 
